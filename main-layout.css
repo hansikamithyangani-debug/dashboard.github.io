@@ -1,0 +1,31 @@
+.grid-container{
+    display: grid;
+    min-height: 100vh;
+    grid-template-areas: "header header"
+    "sidebar content"
+    "footer footer";
+}
+
+.header{
+    grid-area: header;
+    background-color: aqua;
+    padding: 20px;
+}
+
+.sidebar{
+    grid-area: sidebar;
+    background-color: beige;
+    padding: 20px;
+}
+
+.content{
+    grid-area: content;
+    background-color: darkcyan;
+    padding: 20px;
+}
+
+.footer{
+    grid-area: footer;
+    background-color: coral;
+    padding: 20px;
+}
